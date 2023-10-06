@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "growing_with_value",
+  "info": {
+    "singularName": "growing-with-values",
+    "pluralName": "growing-with-value",
+    "displayName": "Growing With Values"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "GIF": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "GIFlink": {
+      "type": "string"
+    }
+  }
+}

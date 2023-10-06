@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "we_offer_a_wide_variety_of_security_audit_services",
+  "info": {
+    "singularName": "we-offer-a-wide-variety-of-security-audit-service",
+    "pluralName": "we-offer-a-wide-variety-of-security-audit-services",
+    "displayName": "We Offer A Wide Variety Of Security Audit Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "rootlogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SecurityAuditServicesImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MiddleGif": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LockGif": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Rootlogolink": {
+      "type": "string"
+    },
+    "SecurityAuditServicesImgLink": {
+      "type": "string"
+    },
+    "MiddleGifLink": {
+      "type": "string"
+    },
+    "LockGifLink": {
+      "type": "string"
+    }
+  }
+}

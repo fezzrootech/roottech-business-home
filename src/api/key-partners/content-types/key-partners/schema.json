@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "key_partner",
+  "info": {
+    "singularName": "key-partners",
+    "pluralName": "key-partner",
+    "displayName": "Key Partners"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "companyname": {
+      "type": "string"
+    },
+    "companylogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "companylogolink": {
+      "type": "string"
+    },
+    "companywebsiteurl": {
+      "type": "string"
+    }
+  }
+}

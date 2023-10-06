@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_usps",
+  "info": {
+    "singularName": "our-us-ps",
+    "pluralName": "our-usps",
+    "displayName": "OUR USPs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Title1": {
+      "type": "string"
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Title3": {
+      "type": "string"
+    },
+    "Title4": {
+      "type": "string"
+    },
+    "Title5": {
+      "type": "string"
+    },
+    "Title6": {
+      "type": "string"
+    },
+    "GIF": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "GIFlink": {
+      "type": "string"
+    }
+  }
+}

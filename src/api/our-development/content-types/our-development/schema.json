@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_developments",
+  "info": {
+    "singularName": "our-development",
+    "pluralName": "our-developments",
+    "displayName": "OUR DEVELOPMENT",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "Img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BubbleImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgLink": {
+      "type": "string"
+    },
+    "BubbleImgLink": {
+      "type": "string"
+    },
+    "topbubbleImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "topbubbleImgLink": {
+      "type": "string"
+    }
+  }
+}
